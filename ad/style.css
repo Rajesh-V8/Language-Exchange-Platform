@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background: rgb(212,212,212);
+}
+.wrapper
+{
+    margin:auto;
+    display: flex;
+}
+.sidebar
+{
+    width: 100px;
+    height: 100vh;
+    background:white;
+}
+.sidebar ul
+{
+    margin-top: 50px;
+}
+.sidebar ul li
+{
+    list-style: none;
+    text-align: center;
+}
+.sidebar ul li a
+{
+    margin: 30px;
+    font-size: 22px;
+    cursor:pointer;
+    text-decoration:none;
+    color: rgb(83,82,82);
+}
+.sidebar ul li a:hover
+{
+    color: palevioletred;
+}
+.sidebar li:hover,li.active
+{
+    border-right: 1px solid rgb(83,82,82);
+}
+.main
+{
+    width: 70%;
+    padding: 1rem;
+}
+.promo_card
+{
+    width:111%;
+    color: #fff;
+    margin-top: 10px;
+    margin-left:30px;
+    border-radius: 8px;
+    padding:0.5rem 1rem 1rem 3rem;
+    background: rgb(37,37,37);
+}
+.promo_card h1 span
+{
+    color: orange;
+}
+.promo_card h1,.promo_card span,button
+{
+    margin:6px;
+}
+.promo_card button
+{
+    display: block;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.head
+{
+    display: flex;
+    padding: 20px 30px;
+
+}
+.head-tittle span
+{
+    font-size: 14px;
+    color: rgb(151,151,151);
+}
+.card-board
+{
+    display: flex;
+    padding: 15px 40px;
+}
+.card
+{
+    width: 230px;
+    height:100px;
+    padding: 20px;
+    background: #fff;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.card-icons
+{
+    display: flex;
+}
+.card-icons i,a
+{
+    margin: 15px 0;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration:none;
+    margin-right: 12.5rem;
+    color: rgb(83,82,82);
+}
+.footer
+{
+    display: flex;
+    padding: 20px 30px;
+
+}
+.social
+{
+    display: flex;
+    padding: 20px 30px;
+
+}
